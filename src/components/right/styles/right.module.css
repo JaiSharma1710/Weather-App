@@ -1,0 +1,13 @@
+.main {
+  /* background-color: red; */
+  padding: 30px;
+  display: grid;
+  grid-template-rows: 1fr 0.5fr 2fr;
+  align-items: center;
+}
+
+@media (max-width: 1300px) {
+  .main {
+    grid-template-rows: 0.5fr 0.2fr 1fr;
+  }
+}

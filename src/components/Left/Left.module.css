@@ -1,0 +1,17 @@
+.left {
+  padding: 30px;
+  display: grid;
+  grid-template-rows: 0.25fr 0.3fr 1fr 0.4fr;
+}
+
+.error {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1300px) {
+  .main {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}
