@@ -22,7 +22,7 @@ export default function Mainbody(props) {
 
   const forcast = async (fData) => {
     let response = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=a7717d5fbc384077aa0104207221106&q=${fData}&days=4&aqi=no&alerts=no`
+      `https://api.weatherapi.com/v1/forecast.json?key=a7717d5fbc384077aa0104207221106&q=${fData}&days=4&aqi=no&alerts=no`
     );
     let data = await response.json();
 
