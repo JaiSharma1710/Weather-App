@@ -11,7 +11,7 @@ export default function MainbodyLeft(props) {
 
   const getInputData = async (data) => {
     const response = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=a7717d5fbc384077aa0104207221106&q=${data}&aqi=yes`
+      `https://api.weatherapi.com/v1/current.json?key=a7717d5fbc384077aa0104207221106&q=${data}&aqi=yes`
     );
 
     if (response.status !== 200) {
